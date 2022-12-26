@@ -1,0 +1,173 @@
+@font-face {
+    font-family: SpaceMono;
+    src: url(/fonts/Space_Mono/SpaceMono-Regular.ttf);
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+    body {
+        background-size: cover;
+        display: grid;
+        height: 100%;
+    }
+
+    .sup {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        margin-top: 120px;
+    }
+    .supreme {
+        font-size: 68px;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: bold;
+        border: #FF0000;
+        background-color: #FF0000;
+        height: 82px;
+        width: 330px;
+        text-align: center;
+    }
+    .stroka1 {
+        align-items: center;
+        display: flex;
+        line-height: 29.62px;
+        justify-content: space-around;
+        font-family: 'SpaceMono';
+        font-style: normal;
+        font-size: 20px;
+        width: 287px;
+        text-align: center;
+        color: black;
+        max-width: 100%;
+        height: auto;
+
+    }
+    .date2019 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 62px;
+        color: black;
+        font-family: 'SpaceMono';
+        font-style: normal;
+        font-size: 20px;
+        margin-left: 220px;
+    }
+    .image {
+        position: absolute;
+        width: 390px;
+        height: 260px;
+        padding-left: 100px;
+        padding-top: 8px;
+    }
+    .txt {
+        color: black;
+        font-family: 'SpaceMono';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 37px;
+        width: 400px;
+        padding-left: 500px;
+    }
+    .supv {
+        color: black;
+        font-family: 'SpaceMono';
+        font-style: normal;
+        font-size: 25px;
+        line-height: 37px;
+        width: 400px;   
+    }
+    .archive {
+        color: black;
+        padding-left: 500px;
+        font-family: 'SpaceMono';
+        font-size: 20px;
+    }
+    .style-arc {
+        border;
+        background-color: #FF0000;
+        width: 86px;
+        height: 30px;
+
+    }
+    .bottom {
+        font-family: 'SpaceMono';
+        font-size: 20px;
+        padding-top: 50px;
+        color: black;
+        display: flex;
+        padding-left: 155px;
+    }
+    .bot-of {
+
+    }
+    .arrow {   
+        padding-left: 10px;
+        padding-top: 3px;
+    }
+    .kl-bottom {
+        font-size: 20px;
+        font-family: 'SpaceMono';
+        display: flex;
+        align-items: center;
+        padding-top: 125px;
+        justify-content: space-evenly;
+    }
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+    @media screen and (max-width: 480px) {
+        .supreme {
+            margin-top: px;
+            margin-left: 50px;
+        }
+        .date {
+            margin-left: 50px;
+        }
+        .image {
+            margin-left: -100px;
+        }
+        .bottom {
+            margin-top: -50px;
+        }
+        .date2019 {
+            display:contents;
+            
+        }
+        .txt {
+            margin-left: -500px;
+            padding-top: 70px;
+            position: absolute;
+            width: 414px;
+            height: 1487px;
+            left: 0px;
+            top: 646px;
+            overflow-y: scroll;
+        }
+        .kl-bottom {
+            margin-top: 0px;
+            width: 320;
+            height: 10px;
+            left: 0px;
+            overflow-y: scroll;
+        }
+        .sup {
+            position: relative;
+        }
+
+        header {
+            max-width: 330px;
+        }
+        
+
+    }
+    @media screen and (max-width: 320px) {
+
+        
+    }
